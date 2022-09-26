@@ -13,3 +13,4 @@ end
 
 # euler's problem: https://projecteuler.net/problem=1
 ArithmeticPractice.euler_problem
+exit(:shutdown)

@@ -20,3 +20,4 @@ defmodule StringPractice do
 end
 
 StringPractice.main
+exit(:shutdown)
