@@ -29,6 +29,7 @@ I'll be recording my experiments and what I've learned while treking through Eli
 * Telemetry is baked into the Pheonix framework by default, making monitoring and obvervability a first class feature instead of an auxiliary service.
 * Though uncanny and otherwise unnecessary, Elixir can be used for scripting. The BEAM vm will load the script into memory, compile your code, and execute. This is rather ineffecient because the BEAM vm would have to be started and code compiled prior to execution, which is a waste of time and resources given alternative options.
 * The docs are rather confusing in regards to strings. The *string* or binary primitive type is denoted with double quotes, as where anything enclosed in single quotes is a character/literal.
+* Maps are quite flexible in their instantiation, notation is also available for shorthand updating map fields using atoms as keys. In fact, the fact that atoms can be used as map keys is a fascinating feature.
 
 ## Closing Thoughts
 
