@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# elixir-beers
-My first elixir project to learn the language and package structure.
-=======
 # elixer_cars
 
 This project was created to learn Elixir basics, as well as common use cases from other languages I use on a daily basis.
@@ -44,4 +40,3 @@ TBD
 ---
 
 Copyright (c) 2022 John Nolette Licensed under the MIT License.
->>>>>>> 4c91247... Initial commit with practice scripts for io, string, and num.
