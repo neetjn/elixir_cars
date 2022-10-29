@@ -11,11 +11,14 @@ defmodule ListPractice do
     div2 = Enum.filter(base, fn num -> rem(num, 2) == 0 end)
     strdiv = Enum.map(div2, fn num -> "#{Integer.to_string(num)}," end)
     IO.puts strdiv
-    :apple = "Apple"
-    :orange = "Orange"
-    :pizza = "Pizza"
     itemCosts = [[:apple, 1.0], [:orange, 0.75], [:pizza, 10.0]]
-    # item_map = List.foldl()
+    item_map = List.foldl(itemCosts, %{}, fn item, map ->
+      [name, cost] = item
+      name = Atom.to_string(name)
+      IO.puts "#{name} = #{cost}"
+      Map.put_new(map, name, cost)
+    end)
+    IO.inspect item_map
   end
 end
 
